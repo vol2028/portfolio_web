@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px; 
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, .profile {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #121212;
+}
+
+header {
+    background-color: #121212;
+    top: 90px;
+    position: relative;
+    margin-bottom: 150px;
+    /* background-image: url(../img/background.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -105px;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.btn {
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+figcaption {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.intro-img {
+    box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+.skills{
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.experience {
+    color: black;
+}
+
+
+.skills-list {
+
+    font-size: 20px;
+    line-height: 100%;
+}
+
+p {
+    line-height: 130%;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 50px;
+}
+
+.blue {
+    background-color: #e2f5d7;
+}
+
+.project .button {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 100px;
+}
+
+footer h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.right-alignment {
+    text-align: right;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
